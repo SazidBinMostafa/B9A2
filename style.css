@@ -162,6 +162,45 @@ select {
     color: #FFF;
 }
 
+
+
+
+
+/* Main Section */
+main{
+    margin: 100px 135px;
+}
+.section-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.primary-btn{
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    padding: 14px 35px;
+    border: none;
+    border-radius: 10px;
+}
+.opt-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+.mountain-img img{
+    width: 100%;
+}
+
 @media screen and (max-width:600px) {
 
     /* Header */
@@ -205,8 +244,18 @@ select {
     .banner-div {
         background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
         background-repeat: no-repeat;
+        border-radius: 20px;
     }
+
     .banner-text {
         color: #131318;
+    }
+
+    /* Main Section */
+    main{
+        margin: 450px 30px;
+    }
+    .opt-sec{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
